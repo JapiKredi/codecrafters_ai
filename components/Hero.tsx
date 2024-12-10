@@ -24,11 +24,12 @@ export default function Hero() {
           </div>
           <div className="hidden md:block">
             <div className="relative h-[400px] w-full">
+              {/* Use the next/image component for optimized image handling */}
               <Image
-                src="/placeholder.svg"
-                alt="AI Visualization"
-                fill
-                className="object-cover rounded-lg"
+                src="/Logo CodeCrafters.png"
+                alt="CodeCrafters AI Agency Logo"
+                layout="fill"
+                className="object-contain rounded-lg"
                 priority
               />
             </div>
@@ -38,4 +39,3 @@ export default function Hero() {
     </section>
   )
 }
-
