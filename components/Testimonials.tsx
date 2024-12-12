@@ -12,7 +12,7 @@ export default function Testimonials() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Card className="p-6">
             <p className="mb-4">
-              "CodeCrafters delivered our AI solution in record time. Their expertise and professionalism exceeded our expectations."
+              &ldquo;CodeCrafters delivered our AI solution in record time. Their expertise and professionalism exceeded our expectations.&rdquo;
             </p>
             <div className="flex items-center">
               <div className="ml-4">
@@ -23,7 +23,7 @@ export default function Testimonials() {
           </Card>
           <Card className="p-6">
             <p className="mb-4">
-              "Working with CodeCrafters transformed our business processes. Their AI solutions are truly cutting-edge."
+              &ldquo;Working with CodeCrafters transformed our business processes. Their AI solutions are truly cutting-edge.&rdquo;
             </p>
             <div className="flex items-center">
               <div className="ml-4">
@@ -34,7 +34,7 @@ export default function Testimonials() {
           </Card>
           <Card className="p-6">
             <p className="mb-4">
-              "The team at CodeCrafters brought our vision to life with their technical expertise and innovative approach."
+              &ldquo;The team at CodeCrafters brought our vision to life with their technical expertise and innovative approach.&rdquo;
             </p>
             <div className="flex items-center">
               <div className="ml-4">
@@ -48,4 +48,3 @@ export default function Testimonials() {
     </section>
   )
 }
-
